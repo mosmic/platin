@@ -3,11 +3,21 @@ body {
     font-weight: 300;
 }
 
+#container {
+    position: relative;
+}
+
 nav {
     background-color: #333;
     text-align: center;
     max-width: 1300px;
     margin: 0 auto;
+    position: absolute;
+    top: 80px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 nav ul {
