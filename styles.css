@@ -143,6 +143,19 @@ nav ul ul ul li {
     display: list-item;
     color: orange;
 }
+
+.list a {
+    display: inline;
+    padding: 0;
+    text-decoration: none;
+    color: orange;
+}
+
+.list a:hover {
+    color: orangered;
+    background: none;
+}
+
 hr {
     border: none;
     height: 5px;
