@@ -22,7 +22,6 @@ nav ul {
 nav li {
     display: table-cell;
     width: calc(100% / 7);
-    
     color: white;
     padding: 0;
 }
@@ -86,39 +85,44 @@ nav ul ul ul li {
 
 #dropdown {
     background: lightgray;
-    height: 760px;
+    height: 675px;
     padding: 10px;
 }
 
 #header {
-    margin: 1%;
+    margin: 1% 1% 0 1%;
+    height: 25%;
+}
+
+#responsive-scale {
     background-image: url('assets/banner.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
-    height: 25%;
+    width: 100%;
+    padding-bottom: 16.58%;
 }
 
 .media {
     position: relative;
     float: left;
     background: white;
-    margin: 1%;
+    margin: 0 1%;
     width: 23%;
-    height: 530px;
+    height: 490px;
     color: #000;
 }
 
 .media h2 {
-    font-size: 1.7vw;
+    font-size: 1.4em;
     margin-top: 0;
     padding-top: 0;
 }
 .media h3 {
-    font-size: 1.3vw;
+    font-size: 1.1em;
 }
 .media h4 {
-    font-size: 1.2vw;
+    font-size: 1em;
     margin: 0;
     padding: 0;
 }
@@ -165,7 +169,7 @@ hr {
     text-align: left;
     padding-top: 10px;
     padding-bottom: 10px;
-    bottom: 32%;
+    bottom: 34%;
 }
 
 .star-text div {
@@ -174,7 +178,7 @@ hr {
 }
 
 .the-image {
-    top: 5px;
+    top: 4px;
     width: 14%;
 }
 
